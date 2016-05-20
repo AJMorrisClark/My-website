@@ -1,0 +1,50 @@
+@media only screen and (max-width: 500px) {  
+   
+   *[class=typeMain] {font-size: 15px!important; line-height: 25px!important; padding: 5px 15px 12px 15px!important;}
+   *[class=textH1] {font-size:27px!important; line-height:32px!important; padding: 15px 20px!important;}
+   *[class=textH2] {font-size:18px!important; line-height:22px!important; padding: 3px 20px!important;}
+   
+   *[class=imgSpace] {padding: 10px 0px!important;}
+   
+   *[class=sizeLogo] {width:250px!important; height:37px!important;margin:20px 20px 0px 20px!important;}   
+   
+   *[class=hide] {display: none!important; }
+ 
+   *[class=centerBttn] {margin:10px auto 15px auto!important;}
+   *[class=bttnSize] {width: 260px!important;height:56px!important;}
+   *[class=bttnText] {font-size:18px!important;line-height:56px!important;}
+   
+   *[class=socBlock] {display: table; margin:10px auto!important; width:144px!important;}
+   *[class=socIcon] {width:44px!important;height:44px!important;padding:4px!important;}
+   *[class=socialWrapper] {width: 48px; padding: 0; background-color: #d3222a;}
+   
+      a[x-apple-data-detectors] { /* surpresses blue iOS links */
+     color: inherit !important;
+     text-decoration: none !important;
+     font-size: inherit !important;
+     font-family: inherit !important;
+     font-weight: inherit !important;
+     line-height: inherit !important; }
+}
+  
+@media only screen and (max-width: 374px) {
+
+   *[class=deviceWidth] {width: 320px !important;}
+   *[class=innerWidth] {width: 300px !important;}
+   *[class=topImage] {width:320px!important; height:93px!important;}
+}
+  
+  
+@media only screen and (max-width: 413px) and (min-width: 375px)  {
+
+   *[class=deviceWidth] {width: 375px !important;}
+   *[class=innerWidth] {width: 355px !important;}
+   *[class=topImage] {width:375px!important; height:109px!important;}
+  
+}
+@media only screen and (max-width: 500px) and (min-width: 414px)  {
+
+   *[class=deviceWidth] {width: 414px !important;}
+   *[class=innerWidth] {width: 394px !important;}
+   *[class=topImage] {width:414px!important; height:121px!important;}
+}

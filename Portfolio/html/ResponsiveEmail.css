@@ -1,0 +1,46 @@
+@media only screen and (max-width: 736px) {  
+   *[class=typeMain] {font-size: 15px!important; line-height: 25px!important; padding: 5px 15px 12px 15px!important;}
+   *[class=textH1] {font-size:27px!important; line-height:30px!important; padding: 15px 20px!important;}
+   *[class=textH2] {font-size:21px!important; line-height:25px!important; padding: 3px 20px!important;}
+   
+   *[class=sizeLogo] {width:250px!important; height:37px!important;margin:20px auto!important;}   
+   *[class=dotline] {width:320px!important; height:6px!important;}
+   
+   *[class=hide] {display: none!important; }
+   *[class=show] {display: block!important; }
+
+   *[class=centerBttn] {margin:10px auto 15px auto!important;}
+   *[class=bttnSize] {width: 260px!important;height:56px!important;}
+   *[class=bttnText] {font-size:18px!important;line-height:56px!important;}
+   
+   *[class=socBlock] {display: table; margin:10px auto!important; width:144px!important;}
+   *[class=socIcon] {width:44px!important;height:44px!important;padding:4px!important;}
+   *[class=socialWrapper] {width: 48px; padding: 0; background-color: #d3222a;}
+}
+  
+@media only screen and (max-width: 480px) {
+
+   *[class=deviceWidth] {width: 320px !important;}
+   *[class=innerWidth] {width: 300px !important;}
+   *[class=topimage] {width:320px!important; height:82px!important;}
+   *[class=btmimage] {width:320px!important; height:97px!important;}
+}
+  
+  
+@media only screen and (max-width: 667px) and (min-width: 375px)  {
+
+   *[class=deviceWidth] {width: 375px !important;}
+   *[class=innerWidth] {width: 300px !important;}
+   *[class=topimage] {width:375px!important; height:96px!important;}
+   *[class=btmimage] {width:375px!important; height:114px!important;}
+  
+}
+
+@media only screen and (max-width: 736px) and (min-width: 414px)  {
+
+   *[class=deviceWidth] {width: 414px !important;}
+   *[class=innerWidth] {width: 400px !important;}
+   *[class=topimage] {width:414px!important; height:106px!important;}
+   *[class=btmimage] {width:414px!important; height:114px!important;}
+  
+}
