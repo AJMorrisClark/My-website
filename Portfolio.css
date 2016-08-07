@@ -1,4 +1,15 @@
 
+/* View Source button only works in chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+#source {display:block!important; cursor: pointer;}
+#rightclick {display:none;}
+}
+
+
+#source {
+	display:none;	
+}
 
 
 body { 
@@ -68,8 +79,13 @@ h2 {
 }
 
 .srcButton {
-	margin-top: 70px;
+	margin-top: 20px;
 	border-color: rgba(255, 255, 255, 0.3);
+	color: #FFF;
+	font-size: 21px;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding: 20px 25px;
+
 }
 
 .srcButton a:hover {
@@ -261,21 +277,21 @@ button {
  border: 0px;
 }
 
-
 .portfolioDisc {
-	width: 300px;
+	width: 320px;
+    margin-top:320px;
+    margin-left: 15px;
+	font-size: 15px;
     height: 0px;
-	padding-top: 0px;
-	margin-left: -15px;
+	padding: 0 10px 0 10px;
     overflow:hidden;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    margin-top:300px;
+    margin-left: 15px;
 	position:absolute;
 	background-color:#000;
-	font-size: 15px;
 	line-height: 18px;
 	text-align:center;
 	color: #FFF;
@@ -286,14 +302,11 @@ button {
 	position:relative;
 	}
 
-
 .port:hover .portfolioDisc {
-	margin-top:221px;
+	margin-top:240px;
     height:80px;
 	padding-top: 10px;
-	
 }
-
 
 
 .secondDisc {
@@ -341,7 +354,7 @@ button {
 
   #section3 {
   	padding-top:0px;
-  	height:1150px;
+  	height:1500px;
   	color: #fff;
   	background:url("http://www.amymorrisclark.com/Portfolio/images/BG3b.gif")50% 0 fixed;
   	background-repeat: no-repeat;
@@ -391,16 +404,9 @@ padding-top: 30px;
   	}
 
   	#section3 {
-  	padding-top:50px;
-  	height:1100px;
+  	padding-top:40px;
+  	height:1350px;
   	}
-
-  	.portfolioDisc {
-	width: 286px;
-	height: 85px;
-	top: 210px;
-}
-
 
 .secondDisc {
 	left: 314px;
@@ -424,6 +430,25 @@ padding-top: 30px;
 	top: 553px;
 	left: 629px;
 }
+
+
+.portfolioDisc {
+	width: 254px;
+    height: 0px;
+    margin-top:255px;
+    margin-left: 15px;
+	font-size: 15px;
+	
+}
+
+.port:hover .portfolioDisc {
+	margin-top:175px;
+    height:80px;
+	padding-top: 10px;
+	
+}
+
+
 
  }
 
@@ -457,23 +482,13 @@ padding-top: 30px;
   	}
 
 	#section3 {
-  	padding-top:50px;
-  	height:1550px;
+  	padding-top:30px;
+  	height:1100px;
   	}
 
   	form {
   		width: 75%;
   	}
-
- 	.portfolioDisc {
-	width: 213px;
-	top: 160px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	font-size: 12px;
-	height: auto;
-	left: 2px;
-}
 
 .secondDisc {
 	top: 160px;
@@ -499,8 +514,19 @@ padding-top: 30px;
 	top: 433px;
 	left: 481px;
 }
+.portfolioDisc {
+	width: 181px;
+    height: 0px;
+    margin-top:181px;
+    margin-left: 15px;
+	font-size: 11px;
+}
 
-
+.port:hover .portfolioDisc {
+	margin-top:101px;
+    height:80px;
+	padding-top: 10px;
+}
   	
 }
 
@@ -534,22 +560,13 @@ padding-top: 30px;
 
   	#section3 {
   	padding-top:50px;
-  	height:1500px;
+  	height:1800px;
   	}
 
   form {
   	width: 100%;
   }
 
-.portfolioDisc {
-	width: 213px;
-	top: 160px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	font-size: 12px;
-	height: auto;
-	left: 2px;
-}
 
 .secondDisc {
 	top: 160px;
@@ -575,6 +592,10 @@ padding-top: 30px;
 	top: 433px;
 	left: 481px;
 }
+.portfolioDisc {
+	display:none;
+}
+
 
 }
 
@@ -598,7 +619,7 @@ padding-top: 30px;
 
   	#section3 {
   	padding-top:50px;
-  	height:1100px;
+  	height:1250px;
   	}
 
   	#section4 {
@@ -607,7 +628,7 @@ padding-top: 30px;
   	}
 
   	.mtop {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 	.aboutHeading {
@@ -647,7 +668,9 @@ padding-top: 30px;
   		padding-right: 10px;
   		width:"100%";
   	}
-
+.portfolioDisc {
+	display:none;
+}
 	
 }
 
